@@ -41,7 +41,7 @@ html, body {
   height: 100%;
   width: 100%;
   background: #111a22;
-    font-family: 'Comic Neue', cursive;
+  font-family: 'Comic Neue', cursive;
 
 }
 
@@ -119,4 +119,9 @@ canvas {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+.colorFondo{
+    background: #111a22;
+    
 }
