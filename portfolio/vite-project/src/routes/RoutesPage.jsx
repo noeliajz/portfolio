@@ -1,18 +1,17 @@
 import { Route, Routes } from "react-router-dom";
 import HomePage from "../pages/HomePage";
-/* import PaginaError404 from "../pages/PaginaError404";
- */import QuienSoy from "../pages/QuienSoy";
+import QuienSoy from "../pages/QuienSoy";
 import MisProyectos from "../pages/MisProyectos";
-
+import Certificados from "../pages/Certificados";
 
 function RoutesPage() {
 
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
-{/*       <Route path="*" element={<PaginaError404 />} />
- */}      <Route path="/QuienSoy" element={<QuienSoy/>}></Route>
+      <Route path="/QuienSoy" element={<QuienSoy/>}></Route>
       <Route path="/MisProyectos" element={<MisProyectos/>}></Route>
+      <Route path="/Certificados" element={<Certificados/>}></Route>
 
     </Routes>
   );
