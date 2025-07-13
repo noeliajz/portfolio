@@ -1,0 +1,122 @@
+.comic-neue-light {
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.comic-neue-regular {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.comic-neue-bold {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.comic-neue-light-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.comic-neue-regular-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.comic-neue-bold-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: #111a22;
+    font-family: 'Comic Neue', cursive;
+
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #111a22;
+  display: block;
+  position: 'fixed',
+
+}
+
+
+.navbar {
+  position: relative;
+  width: 100%;
+  padding: 1rem 2rem;
+  background: rgba(17, 26, 34, 0.6); /* mismo que el canvas pero translúcido */
+  backdrop-filter: blur(10px);       /* efecto glass */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: -1;
+  border-bottom: 2px solid #ff914d33; /* línea inferior suave en naranja */
+  color: white;
+}
+
+.navbar a {
+  color: #ffffffdd;
+  text-decoration: none;
+  margin: 0 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ff914d;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff914d;
+}
+
+.glass-navbar {
+  background: rgba(17, 26, 34, 0.6); /* fondo oscuro translúcido */
+  backdrop-filter: blur(10px);       /* desenfoque tipo vidrio */
+  border-bottom: 2px solid #ff914d33;
+  z-index: 10;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #ffffffdd !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ff914d !important;
+}
+
+.tamanioPerfil{
+  width: 250px;
+  margin-top: 50px ;
+  
+}
+
+.QuienSoy {
+  color: #f53b57;
+  background-color: #111a22; 
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
