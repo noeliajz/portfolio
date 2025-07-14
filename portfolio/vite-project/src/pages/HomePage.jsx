@@ -109,13 +109,38 @@ const HomePage = () => {
     };
   }, []);
 
-  return (
-    <div style={{ position: 'relative', height: '100vh', overflow: 'hidden' }}>
-      <canvas
-        ref={canvasRef}
-      ></canvas>
+ 
+    return (
+  <div style={{ position: 'relative', height: '100vh', overflow: 'hidden' }}>
+    <canvas
+      ref={canvasRef}
+      style={{
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        zIndex: 0,
+      }}
+    ></canvas>
+
+    <div
+      style={{
+        position: 'absolute',
+        top: '40%',
+        width: '100%',
+        textAlign: 'center',
+        color: 'white',
+        fontSize: '3rem',
+        fontWeight: 'bold',
+        zIndex: 1,
+        textShadow: '2px 2px 4px black',
+      }}
+    >
+      ¡Bienvenido a mi sitio!
     </div>
-  );
+  </div>
+);
+
+ 
 };
 
 export default HomePage;
