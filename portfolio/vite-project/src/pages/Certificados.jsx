@@ -1,8 +1,8 @@
 import { Container, Col, Row } from "react-bootstrap";
 import certificadoInt from "../assets/introduccion.webp";
-import certificado2 from "../assets/CertificadoDiseñoWebHttmlCss_page-0001.webp";
-import certificado3 from "../assets/CertificadoGestionDeProyectos.webp";
-import certificado4 from "../assets/certificadodeinglesCUIpage0001.webp"
+import certificado2 from "../assets/diseno.webp";
+import certificado3 from "../assets/gestion.webp";
+import certificado4 from "../assets/ingles.webp"
 
 const Certificados = () => {
   return (
