@@ -1,8 +1,8 @@
 import { Container, Col, Row } from "react-bootstrap";
-import certificadoInt from "../assets/Certificado-Introducción-a-la-Programación-EducaciónIT (1)_page-0001.jpg";
-import certificado2 from "../assets/FT AR - CertificadoDiseñoWebHttmlCss_page-0001.jpg";
-import certificado3 from "../assets/FT AR - CertificadoGestionDeProyectos.jpg";
-import certificado4 from "../assets/certificado de ingles CUI_page-0001.jpg"
+import certificadoInt from "../assets/introduccion.webp";
+import certificado2 from "../assets/CertificadoDiseñoWebHttmlCss_page-0001.webp";
+import certificado3 from "../assets/CertificadoGestionDeProyectos.webp";
+import certificado4 from "../assets/certificadodeinglesCUIpage0001.webp"
 
 const Certificados = () => {
   return (
